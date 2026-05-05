@@ -1,0 +1,83 @@
+.confirm-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.confirm-title {
+    text-align: center;
+    color: #8b7969;
+    font-size: 32px;
+    margin-bottom: 50px;
+    font-family: serif;
+}
+
+.confirm-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    border-top: 1px solid #ddd;
+}
+
+.confirm-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.confirm-table th {
+    width: 30%;
+    text-align: left;
+    padding: 25px 30px;
+    background-color: #bfa694;
+    color: #fff;
+    font-weight: normal;
+}
+
+.confirm-table td {
+    width: 70%;
+    padding: 25px 30px;
+    background-color: #fff;
+    color: #333;
+}
+
+.form-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.submit-btn {
+    background-color: #8b7969;
+    color: #fff;
+    padding: 12px 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
+}
+
+.back-link {
+    color: #8b7969;
+    text-decoration: underline;
+    font-size: 14px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #6b5a4d;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+    cursor: pointer;
+}

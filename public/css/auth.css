@@ -1,0 +1,87 @@
+.auth-container {
+    margin: -50px calc(50% - 50vw);
+    width: 100vw;
+    background-color: #f9f8f7;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    box-sizing: border-box;
+    font-family: "MS PMincho", "Hiragino Mincho ProN", serif;
+}
+
+.auth-title {
+    color: #8b7969;
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.login-card {
+    background-color: #ffffff;
+    width: 550px;
+    padding: 60px 80px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    display: block;
+    color: #8b7969;
+    font-size: 16px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #f4f4f4;
+    color: #8b7969;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.login-btn {
+    background-color: #8b7969;
+    color: #ffffff;
+    border: none;
+    padding: 10px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    width: auto;
+}
+
+.auth-link {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.auth-link a {
+    color: #0000ee;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 12px;
+    margin-top: 5px;
+}
