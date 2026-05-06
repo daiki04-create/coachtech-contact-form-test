@@ -6,7 +6,6 @@
 
 @section('content')
 <div class="auth-container">
-    {{-- タイトルをカードの外に出す --}}
     <h2 class="auth-title">Login</h2>
     
     <div class="login-card">

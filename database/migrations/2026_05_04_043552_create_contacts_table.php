@@ -15,7 +15,6 @@ class CreateContactsTable extends Migration
     {
         Schema::create('contacts', function (Blueprint $table) {
         $table->id();
-        // foreignIdでcategoriesテーブルのidと紐付け（本番想定の整合性維持）
         $table->foreignId('category_id')->constrained()->cascadeOnDelete();
         $table->string('first_name', 255);
         $table->string('last_name', 255);
@@ -23,8 +22,8 @@ class CreateContactsTable extends Migration
         $table->string('email', 255);
         $table->string('tell', 255);
         $table->string('address', 255);
-        $table->string('building', 255)->nullable(); // 建物名は任意項目
-        $table->text('detail'); // お問い合わせ内容は長文を想定しtext型
+        $table->string('building', 255)->nullable();
+        $table->text('detail');
         $table->timestamp('created_at')->useCurrent();
         $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });

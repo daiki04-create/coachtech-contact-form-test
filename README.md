@@ -9,8 +9,6 @@ FashionablyLate（お問い合わせフォーム）
 - 開発ツール: Docker / Docker Compose / Laravel Sail
 
 ## 環境構築
-Laravel Sailを使用して環境を起動します。
-
 1. `cp .env.example .env`
 2. `./vendor/bin/sail up -d`
 3. `./vendor/bin/sail composer install`
